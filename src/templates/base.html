@@ -2,7 +2,7 @@
 <!--DOCTYPE html -->
 <html>
 <head>
-<title>{% block head_title %}Try Django 1.9{% endblock head_title %}</title>
+<title>{% block head_title %}Advancing the Blog{% endblock head_title %}</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -35,7 +35,27 @@ fjs.parentNode.insertBefore(js, fjs);
 
 
 <!-- Latest compiled and minified JavaScript -->
+<script   src="http://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js'></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".content-markdown").each(function(){
+            var content = $(this).text()
+            console.log(content)
+            var markedContent = marked(content)
+            console.log(markedContent)
+            $(this).html(markedContent)
+    })
+
+})
+
+</script>
+
 </body>
 </html>
 
