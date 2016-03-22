@@ -9,8 +9,17 @@
 
 
 {% block content %}
-<div class='col-sm-6 col-sm-offset-3'>
+<div class='col-sm-6'>
+<h1>Preview</h1>
+<hr/>
+<div class='content-preview'>
+    <h3 id='preview-title'></h3>
+    <p id='preview-content'></p>
+</div>
+</div>
+<div class='col-sm-6'>
 <h1>Form</h1>
+<hr/>
 
 <form method='POST' action='' enctype='multipart/form-data'>{% csrf_token %}
 {{ form.as_p }}
