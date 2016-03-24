@@ -22,3 +22,22 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 [8 - Dynamic Preview of Form Data](../../tree/7f5501bd71409119c08194787d0baee57f0e47cb)
 
 [9 - Django Crispy Forms](../../tree/87cec64fb692bd5874af89ef64edbbeb406509d6)
+
+[10 - Bootstrap Input Groups](../../tree/b5523eb63f7c6516a28d528a7de10d4c23891458)
+
+[11 - Django Generic Foreign Keys Part 1](../../tree/8252b575fe786edc8cf315f2d9e0472aabd2c470)
+
+[12 - Django Generic Foreign Keys Part 2](../../tree/f27242e9453aab5251bdf79a5307737f96677bd2)
+
+[13 - Django Generic Foreign Keys Part 3](../../tree/4947a5473e5d8e333eb4ed27678fe6365c2bdbbf)
+
+[14 - Model Managers & Instance Methods](../../tree/611e794b67aee252fe434c102a186c9398487118)
+
+[15 - Create Comments](../../tree/9db7bb5b32176b74a7d9e970e6a1f35a3b1965c8)
+
+
+
+
+
+
+
