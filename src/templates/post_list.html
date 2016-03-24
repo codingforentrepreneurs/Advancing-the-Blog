@@ -4,9 +4,16 @@
 
 <div class='col-sm-6 col-sm-offset-3'>
     <h1>{{ title }}</h1>
-<form method='GET' action=''>
-<input type='text' name='q' placeholder='Search posts' value='{{ request.GET.q }}'/>
-<input type='submit' value='Search' />
+<form method='GET' action='' class='row'>
+        <div class='col-sm-6'>
+            <div class='input-group'>
+                <input class='form-control' type='text' name='q' placeholder='Search posts' value='{{ request.GET.q }}'/>
+                <span class='input-group-btn'>
+                    <!-- <input class='btn btn-default' type='submit' value='Search' /> -->
+                    <button class='btn btn-default' type='submit'>Search <i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </div>
 </form>
 {% for obj in object_list %}
 <div class="row">
