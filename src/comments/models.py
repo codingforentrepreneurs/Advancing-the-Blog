@@ -12,7 +12,7 @@ from posts.models import Post
 
 class Comment(models.Model):
     user        = models.ForeignKey(settings.AUTH_USER_MODEL, default=1)
-    post        = models.ForeignKey(Post)
+    # post        = models.ForeignKey(Post)
     
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
