@@ -54,9 +54,21 @@ Linkedin
     <br/>
 
     <div>
-        {{ instance.comment_set.all }}
+        <p class='lead'>Comments</p>
+        {% for comment in comments %}
+        {{ comment.content_object }}
+            <div class=''>
+                {{ comment.content }}
+                <br/>
+                <small>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago</small>
+                <hr/>
+            </div>
+
+        {% endfor %}
     </div>
-    <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+
+
+
 
 </div>
 </div>
