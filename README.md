@@ -35,7 +35,9 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 
 [15 - Create Comments](../../tree/9db7bb5b32176b74a7d9e970e6a1f35a3b1965c8)
 
+[16 - Reply to Comments](../../tree/d5b050656c5b5e5c27c57a716029927cde767c90)
 
+[17 - jQuery fadeToggle for Comment Replies](../../tree/291c6a221c5474824f358612c78a81d594148025)
 
 
 
