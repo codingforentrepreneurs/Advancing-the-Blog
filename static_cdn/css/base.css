@@ -6,3 +6,7 @@ h1 {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
+
+.comment-reply{
+    display:none;
+}
