@@ -21,5 +21,5 @@ def get_read_time(html_string):
     read_time_min = math.ceil(count/200.0) #assuming 200wpm reading
     # read_time_sec = read_time_min * 60
     # read_time = str(datetime.timedelta(seconds=read_time_sec))
-    read_time = str(datetime.timedelta(minutes=read_time_min))
-    return read_time
+    # read_time = str(datetime.timedelta(minutes=read_time_min))
+    return int(read_time_min)
