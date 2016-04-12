@@ -41,4 +41,7 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 
 [18 - Comment Thread](../../tree/4d73109f5ad9a94bf3a04b6de17e32ff8bee16db)
 
+[19 - Count Words & Get Read Time with Python](../../tree/1ef6cb54056d575a261dec1f5401c03c048686bc)
+
+[20 - Blog Post Read Time in Django](../../tree/49288a5e4003fd0ca34bd2d1d1bce7df727edea7)
 
