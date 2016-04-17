@@ -4,6 +4,118 @@
 		"selected_items":
 		[
 			[
+				"read",
+				"read_time_min"
+			],
+			[
+				"rea",
+				"read_time_minutes"
+			],
+			[
+				"count",
+				"count_words"
+			],
+			[
+				"html",
+				"html_string"
+			],
+			[
+				"cont",
+				"content_type"
+			],
+			[
+				"con",
+				"content_object"
+			],
+			[
+				"Co",
+				"CommentForm"
+			],
+			[
+				"Commen",
+				"CommentForm"
+			],
+			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"Comm",
+				"CommentManager"
+			],
+			[
+				"parent",
+				"parent_qs"
+			],
+			[
+				"parent_",
+				"parent_id"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"obje",
+				"objects"
+			],
+			[
+				"pare",
+				"parent_id"
+			],
+			[
+				"comm",
+				"CommentManager"
+			],
+			[
+				"Com",
+				"Comment"
+			],
+			[
+				"cle",
+				"clean_parent_id"
+			],
+			[
+				"obj",
+				"obj_id"
+			],
+			[
+				"COmm",
+				"CommentManager"
+			],
+			[
+				"content",
+				"content_type"
+			],
+			[
+				"co",
+				"comments"
+			],
+			[
+				"conten",
+				"content_type"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"conte",
+				"contentItem"
+			],
+			[
+				"mark",
+				"markedContent"
+			],
+			[
+				"titl",
+				"titleItem"
+			],
+			[
+				"tit",
+				"titleValue"
+			],
+			[
 				"use",
 				"username"
 			],
@@ -124,10 +236,6 @@
 				"function"
 			],
 			[
-				"con",
-				"console"
-			],
-			[
 				"wid",
 				"width"
 			],
@@ -204,10 +312,6 @@
 				"query"
 			],
 			[
-				"Ht",
-				"Http404"
-			],
-			[
 				"mim",
 				"mimetype"
 			],
@@ -238,10 +342,6 @@
 			[
 				"sug",
 				"slugify"
-			],
-			[
-				"cle",
-				"cleaned_data"
 			],
 			[
 				"Upda",
@@ -414,106 +514,6 @@
 			[
 				"email",
 				"email2"
-			],
-			[
-				"e",
-				"email2"
-			],
-			[
-				"template",
-				"template_name"
-			],
-			[
-				"is_",
-				"is_authenticated"
-			],
-			[
-				"updat",
-				"updateCartItemCount〔function〕"
-			],
-			[
-				"em",
-				"empty"
-			],
-			[
-				"sub",
-				"subtotal"
-			],
-			[
-				"sea",
-				"serialize〔function〕"
-			],
-			[
-				"item",
-				"item_id〔variable〕"
-			],
-			[
-				"update",
-				"update_subtotal"
-			],
-			[
-				"Cart",
-				"CartItem〔class〕"
-			],
-			[
-				"lin",
-				"line_item_total"
-			],
-			[
-				"del",
-				"delete_item〔variable〕"
-			],
-			[
-				"dete",
-				"delete_item〔variable〕"
-			],
-			[
-				"Car",
-				"CartItemInline〔class〕"
-			],
-			[
-				"F",
-				"ForeignKey"
-			],
-			[
-				"Produ",
-				"ProductImageInline〔class〕"
-			],
-			[
-				"Vari",
-				"VariationInline〔class〕"
-			],
-			[
-				"max_",
-				"max_length"
-			],
-			[
-				"feat",
-				"featured_image"
-			],
-			[
-				"Produc",
-				"ProductFeatured〔class〕"
-			],
-			[
-				"cate",
-				"categories"
-			],
-			[
-				"ca",
-				"categories"
-			],
-			[
-				"products",
-				"products_two〔variable〕"
-			],
-			[
-				"Cate",
-				"CategoryDetailView〔class〕"
-			],
-			[
-				"Cat",
-				"CategoryDetailView〔class〕"
 			]
 		]
 	},
@@ -572,6 +572,29 @@
 	},
 	"file_history":
 	[
+		"/Users/cfe/Desktop/blog/src/posts/models.py",
+		"/Users/cfe/Desktop/blog/src/posts/utils.py",
+		"/Users/cfe/Desktop/blog/src/posts/views.py",
+		"/Users/cfe/Desktop/blog/src/comments/forms.py",
+		"/Users/cfe/Desktop/blog/src/blog/urls.py",
+		"/Users/cfe/Desktop/blog/src/templates/comment_thread.html",
+		"/Users/cfe/Desktop/blog/src/templates/post_detail.html",
+		"/Users/cfe/Desktop/blog/src/comments/views.py",
+		"/Users/cfe/Desktop/blog/src/comments/urls.py",
+		"/Users/cfe/Desktop/blog/src/comments/models.py",
+		"/Users/cfe/Desktop/blog/README.md",
+		"/Users/cfe/Desktop/blog/src/posts/migrations/0004_post_read_time.py",
+		"/Users/cfe/Desktop/blog/src/templates/base.html",
+		"/Users/cfe/Desktop/blog/src/templates/comments/comment_thread.html",
+		"/Users/cfe/Desktop/blog/src/static/css/base.css",
+		"/Users/cfe/Desktop/blog/src/posts/urls.py",
+		"/Users/cfe/Desktop/blog/src/comments/migrations/0002_comment_parent.py",
+		"/Users/cfe/Desktop/blog/src/posts/forms.py",
+		"/Users/cfe/Desktop/blog/src/templates/post_list.html",
+		"/Users/cfe/Desktop/blog/src/blog/settings.py",
+		"/Users/cfe/Desktop/blog/src/comments/admin.py",
+		"/Users/cfe/Desktop/blog/static_cdn/css/base.css",
+		"/Users/cfe/Desktop/blog/src/templates/post_form.html",
 		"/Users/jmitch/Desktop/blog/src/blog/urls.py",
 		"/Users/jmitch/Desktop/blog/src/blog/settings.py",
 		"/Users/jmitch/Desktop/blog/src/db.sqlite3",
@@ -676,30 +699,7 @@
 		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/empty_cart.html",
 		"/Users/jmitch/Desktop/ecommerce-2/src/carts/admin.py",
 		"/Users/jmitch/Desktop/ecommerce-2/src/templates/alert.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/models.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/js/custom.js",
-		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/css/custom.css",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/view.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/views.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/admin.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/todo.txt",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_list.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/templates/home.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/newsletter/views.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/category_detail.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_thumbnail.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/forms.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/urls.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/urls_categories.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/variation_list.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/products/mixins.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/css/navbar-static-top.css",
-		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/urls.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/production.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/local.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/base.py",
-		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/old_settings.py"
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/models.py"
 	],
 	"find":
 	{
