@@ -18,13 +18,13 @@
 
         
           <p>{{ comment.content }}</p>
-          <footer>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago | {% if comment.children.count > 0 %}{{ comment.children.count }} Comment{% if comment.children.count > 1 %}s{% endif %} {% endif %}</footer>
+          <footer>via {{ comment.user }} | {{ comment.timestamp|timesince }} ago | {% if comment.children.count > 0 %}{{ comment.children.count }} Comment{% if comment.children.count > 1 %}s{% endif %} {% endif %} {% if request.user == comment.user %}<a href='{{ comment.get_delete_url }}'>Delete</a> {% endif %}</footer>
           <hr/>
           <div>
               {% for child_comment in comment.children %}
                 <blockquote>
                 <p>{{ child_comment.content }}</p>
-                <footer>via {{ child_comment.user }} | {{ child_comment.timestamp|timesince }} ago</footer>
+                <footer>via {{ child_comment.user }} | {{ child_comment.timestamp|timesince }} ago | {% if request.user == child_comment.user %}<a href='{{ child_comment.get_delete_url }}'>Delete</a>{% endif %}</footer>
                 </blockquote>
              {% endfor %}
 
