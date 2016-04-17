@@ -45,3 +45,6 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 
 [20 - Blog Post Read Time in Django](../../tree/49288a5e4003fd0ca34bd2d1d1bce7df727edea7)
 
+[21 - Delete View with Confirmation Page](../../tree/6adb42dd72a82a42fb03ec0ff1e57fcdfd9a04d0)
+
+[22 - Delete Permissions & Http Status Codes](../../tree/81a39eb7959b46c123b2335f2df6a0b680d96c18)
