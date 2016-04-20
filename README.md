@@ -48,3 +48,7 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 [21 - Delete View with Confirmation Page](../../tree/6adb42dd72a82a42fb03ec0ff1e57fcdfd9a04d0)
 
 [22 - Delete Permissions & Http Status Codes](../../tree/81a39eb7959b46c123b2335f2df6a0b680d96c18)
+
+[23 - Basic User Login, Registration, Logout](../../tree/5318def15925ab52840d387088afa22ec9a6b816)
+
+[24 - User Login & Form Validation](../../tree/42336531f6b1abdd0828d7339221bc94da25f884)
