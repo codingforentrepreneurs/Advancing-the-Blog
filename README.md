@@ -52,3 +52,13 @@ Advancing the Blog is an extended look at building a modern blog with the Django
 [23 - Basic User Login, Registration, Logout](../../tree/5318def15925ab52840d387088afa22ec9a6b816)
 
 [24 - User Login & Form Validation](../../tree/42336531f6b1abdd0828d7339221bc94da25f884)
+
+[25 - User Register Form & View](../../tree/7c7c17eab39d9c967b0e0356ca4768a2b9077eb4)
+
+[26 - User Login Required](../../tree/209dffd1f60b9b76856fd0cf25b8a31b01419211)
+
+[27 - Breadcrumb Navigation](../../tree/3e9073f0375ffd41b7b4274ec3405d6995af1ef2)
+
+
+
+
